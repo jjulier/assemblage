@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+body{ margin:0;}
+
+img{
+  margin-bottom: 40px
+}
+
+/*
+div{
+  border: 1px solid black;
+}
+*/
+
+
+.content{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.contentnarrow{
+  max-width: 600px;
+  margin: auto;
+}
+
+.header{
+  float: left;
+  width: 100%;
+  min-height: 60px;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 140%;
+  padding-top: 20px;
+}
+
+.text{
+  float: left;
+  max-width: 800px;
+  font: sans-serif 16px 500;
+  line-height: 140%;
+  padding-top: 10px;
+}
+
+.menu{
+  font-size: 42px;
+  font-weight: normal;
+  line-height: 140%;
+  padding-top: 110px;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 80px;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 1120px) {
+
+.header{
+    padding-left: 20px;
+    padding-top: 0px;
+  }
+
+.text{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+
+.menu{
+  padding-left: 20px;
+  font-size: 40px;
+}
+
+img{
+  margin-bottom: 15px;
+}
+
+}
+
+
+@media (max-width: 500px) {
+
+.menu{
+  font-size: 30px;
+}
+
+.header{
+  padding-top: 0px;
+}
+
+img{
+  margin-bottom: 5px;
+}
+
+}
+
+
+html{
+  font-family: sans-serif;
+}
+
+img{
+  max-width: 100%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #0B0080;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: #0B0080;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color:#FF9CF3;
+}
+
+a:active {
+    text-decoration: none;
+    background-color: #00FFFF;
+}
+
+a.one:hover{
+  background-color:#BFBFBF;
+}
+
+a.two:hover{
+  background-color:#FFFFC6;
+}
+
+a.three:hover{
+  background-color:#ACFCF4;
+}
+
+a.threefive:hover{
+  background-color:#F75990;
+}
+
+a.threefivefive:hover{
+  background-color:#efe2b6;
+}
+a.four:hover{
+  background-color:#E0C1FF;
+}
+
+a.five:hover{
+  background-color:#ADF7B6;
+}
+
+a.six:hover{
+  background-color:#FA5AD5;
+}
+
+a.seven:hover{
+  background-color:#FAE243;
+}
+
+a.eight:hover{
+  background-color:#7D94FA;
+}
+
+a.nine:hover{
+  background-color:#E3C6F5;
+}
+
+a.ninefive:hover{
+  background-color:#02FAEE;
+}
+
+a.ten:hover{
+  background-color:#F59F06;
+}
+
+a.eleven:hover{
+  background-color:#FFEE93;
+}
+
+a.twelve:hover{
+  background-color:#81EFF7;
+}
+
+a.thirteen:hover{
+  background-color:#FC8894;
+}
+
+a.fourteen:hover{
+  background-color:#87FAA2;
+}
+
+a.fourteenfive:hover{
+  background-color:#FF00BB;
+}
+
+
+a.fifteen:hover{
+  background-color:#CCFF66;
+}
+
+a.sixteen:hover{
+  background-color:#CF70FF;
+}
